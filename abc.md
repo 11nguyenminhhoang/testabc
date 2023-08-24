@@ -1,28 +1,54 @@
-<hr style="border: 2px solid #0000ff;">
+# Tổng Quan về Kỳ Thi AZ-104: Quản Lý Máy Ảo và Dịch Vụ Container Trên Azure
 
-# Truy Vấn SQL: Một Công Cụ Mạnh Mẽ Trong Xử Lý Dữ Liệu
+Kỳ thi AZ-104 tập trung vào việc đánh giá kỹ năng và kiến thức về quản lý máy ảo, dịch vụ container, và các dịch vụ liên quan trên Microsoft Azure. Dưới đây là các phần chính của kỳ thi.
 
-Trong thế giới dữ liệu ngày nay, việc biết cách truy vấn dữ liệu là một kỹ năng không thể thiếu. **SQL** (Structured Query Language) là một trong những ngôn ngữ truy vấn dữ liệu phổ biến nhất và được sử dụng rộng rãi.
+## 1. **Quản Lý Máy Ảo (Virtual Machines)**
 
-## Giới Thiệu Truy Vấn SQL
+### a. Xây dựng và Kết Nối đến Máy Ảo
+   - Tạo máy ảo Windows và Linux.
+   - Kết nối đến máy ảo thông qua RDP và SSH.
 
-SQL được sử dụng để truy xuất, thêm, cập nhật, và xóa dữ liệu từ cơ sở dữ liệu quan hệ. Dưới đây là ví dụ về một truy vấn SQL đơn giản:
+### b. Vấn đề Kết Nối và Gỡ Lỗi
+   - Xử lý các vấn đề kết nối.
+   - Cài đặt dịch vụ như Internet Information Services.
 
-> ```sql
-> SELECT first_name, last_name
-> FROM employees
-> WHERE department = 'IT';
-> ```
+### c. Chi Phí và Loại Máy Ảo
+   - Hiểu về chi phí liên quan.
+   - Các loại máy ảo và sử dụng thích hợp.
 
-Đoạn truy vấn trên sẽ trả về tên và họ của tất cả nhân viên trong bộ phận IT.
+### d. Quản Lý Đĩa và Mã Hóa
+   - Thêm đĩa dữ liệu, dừng máy.
+   - Mã hóa đĩa phía máy chủ và sử dụng Azure Key Vault.
 
-## Tại Sao SQL Quan Trọng?
+### e. Tùy Chọn Mã Hóa và Xem Xét Nhanh
+   - Mã hóa tập dữ liệu, ảnh chụp.
+   - Sử dụng Azure Disk Encryption và tùy chọn mã hóa khác.
 
-- **Linh Hoạt**: SQL cho phép bạn truy vấn dữ liệu theo nhiều cách khác nhau.
-- **Phổ Biến**: Hầu hết các hệ thống quản lý cơ sở dữ liệu quan hệ (RDBMS) hỗ trợ SQL.
-- **Hiệu Quả**: SQL được tối ưu hóa để xử lý dữ liệu lớn một cách nhanh chóng và hiệu quả.
+### f. Các Tùy Chọn Khởi Động và Chạy Lệnh
+   - Boot Diagnostics, chạy lệnh.
+   - Các khái niệm như Confidential Computing và Azure Dedicated Host.
 
-## Kết Luận
+### g. Tính Sẵn Có và Quy Mô
+   - Availability Sets, Zones.
+   - Quy mô máy ảo và điều kiện quy mô.
 
-Hiểu biết và sử dụng SQL một cách hiệu quả có thể mở ra nhiều cơ hội trong sự nghiệp của bạn. Bằng cách tìm hiểu và thực hành, bạn có thể trở thành một chuy
+### h. Hiểu và Sử Dụng Hình Ảnh Máy Ảo
+   - Tạo và sử dụng hình ảnh chuyên biệt và tổng quát.
 
+## 2. **Dịch Vụ Web và Container Azure**
+
+### a. Azure Web Apps
+   - Tạo và cấu hình Azure Web Apps.
+   - Logging, Deployment Slots, và Tự Động Quy Mô.
+
+### b. Azure Container Services
+   - Cần thiết cho container và Docker.
+   - Azure Container Registry và Instances.
+   - Azure Container Apps và Azure Kubernetes.
+
+### c. Lưu Trữ Persistent Trong Azure Kubernetes
+   - Sử dụng đĩa và chia sẻ tệp.
+
+## **Kết Luận**
+
+Kỳ thi AZ-104 cung cấp một cái nhìn toàn diện về việc quản lý máy ảo và dịch vụ container trên Azure. Các chủ đề bao gồm cả việc xây dựng và quản lý máy ảo, cài đặt và cấu hình dịch vụ web và container, và các khía cạnh liên quan khác. Việc vượt qua kỳ thi này sẽ chứng minh kỹ năng và hiểu biết về các công nghệ và dịch vụ Azure quan trọng này.
