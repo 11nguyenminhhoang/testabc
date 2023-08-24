@@ -1,167 +1,187 @@
-# Tổng Quan về Kỳ Thi AZ-104: Quản Lý Máy Ảo và Dịch Vụ Container Trên Azure
+tốt lắm, bây giờ đi làm chi tiết chuyên môn, hãy làm rõ từng phần 
++ Vào vai một chuyên gia về  CLOUD (Azure và AWS và GCP)
++ Định nghĩa tất cả các thuật ngữ xuất hiện
++ Mô tả các thiết lập hiện có và chức năng của nó (tổng quan)
++ Phân tích chuyên môn mục đích sử dụng
++ Mô tả ứng dụng thực tế vào quy mô doanh nghiệp
++ Đưa ra so sánh tương đồng với AWS cloud
 
-Kỳ thi AZ-104 tập trung vào việc đánh giá kỹ năng và kiến thức về quản lý máy ảo, dịch vụ container, và các dịch vụ liên quan trên Microsoft Azure. Dưới đây là các phần chính của kỳ thi.
 
-## 1. **Quản Lý Máy Ảo (Virtual Machines)**
+1. Introduction to Azure Virtual Machine (Giới Thiệu về Dịch Vụ Máy Ảo Azure)
+We are going to start with the Azure virtual machine service
+The Virtual Machine Service
 
-### a. Xây dựng và Kết Nối đến Máy Ảo
-   - Tạo máy ảo Windows và Linux.
-   - Kết nối đến máy ảo thông qua RDP và SSH.
+Bây giờ bắt đầu cho phần 1 của bạn đi.
+Lưu ý : Vẫn dịch sang tiếng việt tuy nhiên giữ lại những cụm từ và thuật ngữ và tiêu đề ENGLISH quan trọng (dịch tiếng việt bên cạnh). HÃY TRẢ LỜI dưới dạng CODE MARKDOWN (.md)
 
-### b. Vấn đề Kết Nối và Gỡ Lỗi
-   - Xử lý các vấn đề kết nối.
-   - Cài đặt dịch vụ như Internet Information Services.
 
-### c. Chi Phí và Loại Máy Ảo
-   - Hiểu về chi phí liên quan.
-   - Các loại máy ảo và sử dụng thích hợp.
+### Azure Virtual Machine Service
 
-### d. Quản Lý Đĩa và Mã Hóa
-   - Thêm đĩa dữ liệu, dừng máy.
-   - Mã hóa đĩa phía máy chủ và sử dụng Azure Key Vault.
+#### 1. Introduction to Azure Virtual Machine (Giới Thiệu về Dịch Vụ Máy Ảo Azure)
+  - 8. We are going to start with the Azure virtual machine service
+  - 9. The Virtual Machine Service
 
-### e. Tùy Chọn Mã Hóa và Xem Xét Nhanh
-   - Mã hóa tập dữ liệu, ảnh chụp.
-   - Sử dụng Azure Disk Encryption và tùy chọn mã hóa khác.
+#### 2. Building and Connecting to Virtual Machines (Xây dựng và Kết nối đến Máy Ảo)
+  - 10. Lab - Building a Windows virtual machine
+  - 11. Connecting to the Virtual Machine
+  - 12. Issues connecting to the machine
+  - 16. Lab - Building a Linux Virtual Machine
+  - 17. Lab - Deploying a web server on the Linux virtual machine
+  - 18. Lab - Deploying a web server on the Linux virtual machine - Resources
+  - 19. Lab - Deploying a Linux machine - SSH keys
 
-### f. Các Tùy Chọn Khởi Động và Chạy Lệnh
-   - Boot Diagnostics, chạy lệnh.
-   - Các khái niệm như Confidential Computing và Azure Dedicated Host.
+#### 3. Additional Services and Cost Considerations (Dịch Vụ Bổ Sung và Xem xét Chi phí)
+  - 13. Lab - Installing Internet Information Services
+  - 14. Costs Associated with the Virtual Machine
+  - 15. Virtual Machine Types
+  - 20. Note on restrictions for the Azure Free Account
 
-### g. Tính Sẵn Có và Quy Mô
-   - Availability Sets, Zones.
-   - Quy mô máy ảo và điều kiện quy mô.
+#### 4. Disk Management and Encryption (Quản Lý Đĩa và Mã Hóa)
+  - 21. Azure Virtual Machine - Disks
+  - 22. Lab - Adding data disks
+  - 23. What happens when we stop the machine
+  - 24. Azure Disks - Server Side Encryption
+  - 25. Lab - Azure Key Vault Service
+  - 26. Lab - Disk Encrytion Sets
+  - 27. Lab - Azure Disk Encryption
+  - 28. Quick review on the encryption options
+  - 29. Lab - Data Disks Snapshot
+  - 30. Azure Shared Disks
 
-### h. Hiểu và Sử Dụng Hình Ảnh Máy Ảo
-   - Tạo và sử dụng hình ảnh chuyên biệt và tổng quát.
+#### 5. Customization and Extensions (Tùy chỉnh và Phần Mở rộng)
+  - 31. Custom Script Extensions
+  - 32. Lab - Custom Script Extensions
+  - 33. Lab - Custom Script Extensions for Linux Virtual Machines
+  - 34. Lab - Linux Virtual Machines - Cloud init
 
-## 2. **Dịch Vụ Web và Container Azure**
+#### 6. Diagnostics and Management Tools (Công cụ Chẩn đoán và Quản lý)
+  - 35. Virtual Machine - Boot Diagnostics
+  - 36. Lab - Virtual Machine - Run command
+  - 37. Lab - Virtual Machine - Run command - Resources
+  - 39. Note - Redeploying a virtual machine
 
-### a. Azure Web Apps
-   - Tạo và cấu hình Azure Web Apps.
-   - Logging, Deployment Slots, và Tự Động Quy Mô.
+#### 7. Availability and Scaling (Tính Sẵn Có và Quy Mô)
+  - 40. Availability Sets
+  - 41. Availability Sets - Review
+  - 42. Lab - Availability Sets
+  - 43. Lab - Availability Sets - Extra bits
+  - 44. Availability Zones
+  - 45. Lab - Availability Zones
+  - 46. Availability Zones Review
+  - 47. Azure virtual machine scale sets
+  - 48. Lab - Azure Virtual Machine Scale Sets
+  - 49. Azure Virtual Machine Scale Set - Scaling conditions
+  - 50. Virtual Machine Scale Sets - More aspects
+  - 51. Azure Virtual Machine Scale Sets - Flexible Orchestration Mode
+  - 52. Lab - Virtual Machine Scale Sets - Custom Script Extensions
 
-### b. Azure Container Services
-   - Cần thiết cho container và Docker.
-   - Azure Container Registry và Instances.
-   - Azure Container Apps và Azure Kubernetes.
+#### 8. Understanding Images and Proximity Placement (Hiểu Hình Ảnh và Nhóm Đặt Gần)
+  - 53. Understanding virtual machine images
+  - 54. Lab - Creating a specialized image
+  - 55. Lab - Using the Specialized image
+  - 56. Lab - Generalized VM Image
+  - 57. Lab - Using the Generalized VM Image
+  - 58. Proximity Placement Groups
+  - 59. Note on deployments
 
-### c. Lưu Trữ Persistent Trong Azure Kubernetes
-   - Sử dụng đĩa và chia sẻ tệp.
+### Azure Web Apps and Containers (Ứng dụng Web Azure và Containers)
 
-## **Kết Luận**
+#### 9. Introduction to Azure Web Apps (Giới Thiệu về Azure Web Apps)
+  - 60. Introduction onto Azure Web Apps
+  - 61. Lab - Azure Web Apps
+  - 62. Lab - Making simple changes to the Web App
+  - 63. Lab - Publishing a .NET project
+  - 64. Installing Visual Studio 2022
+  - 65. More on App Service Plans
+  - 66. Lab - Azure Web App logging
+  - 67. Azure Web Apps - Deployment Slots
+  - 68. Lab - Azure Web Apps - Deployment Slots
+  - 69. Lab - Auto scaling a web app
+  - 70. Azure Web App - Virtual Network Integration
+  - 71. Lab - Azure Web App - Azure Virtual Network Integration - Setup
+  - 72. Lab - Azure Web App - Azure Virtual Network Integration - Configuration
+  - 73. Lab - Azure Web App - Azure Virtual Network Integration - Resources
+  - 74. Azure Web App - Custom Domains
+  - 75. Azure App Service Backup
 
-Kỳ thi AZ-104 cung cấp một cái nhìn toàn diện về việc quản lý máy ảo và dịch vụ container trên Azure. Các chủ đề bao gồm cả việc xây dựng và quản lý máy ảo, cài đặt và cấu hình dịch vụ web và container, và các khía cạnh liên quan khác. Việc vượt qua kỳ thi này sẽ chứng minh kỹ năng và hiểu biết về các công nghệ và dịch vụ Azure quan trọng này.
+#### 10. Containers and Containerization (Containers và Sự Đóng Gói Container)
+  - 76. The need for containers
+  - 77. Lab - Deploying Docker on a virtual machine
+  - 78. Lab - Running the nginx container on the Linux VM
+  - 79. Lab - Deploying Docker on a virtual machine - Practice commands
+  - 80. The need for an image registry
+  - 81. Lab - Azure Container Registry
+  - 82. Containerize an application - Setup
+  - 83. Containerize an application - Setup - Resources
+  - 84. Containerize an application - Implementation
+  - 85. Containerize an application - Implementation - Resources
+  - 86. Publishing to the Azure Container Registry
+  - 87. Publishing to the Azure Container Registry - Resources
+  - 88. Lab - Azure Container Instances
+  - 89. Lab - Azure Container Groups
+  - 90. Lab - Azure Container Groups - Resources
+  - 91. Azure Container Groups - Probes
+  - 92. Azure Container Apps
 
+#### 11. Azure Kubernetes Service (Dịch vụ Kubernetes của Azure)
+  - 93. Primer on Azure Kubernetes
+  - 94. Lab - Deploying an Azure Kubernetes cluster
+  - 95. Lab - Deploying our application
+  - 96. Lab - Deploying our application - Resources
+  - 97. Azure Kubernetes - Configuring networking
+  - 98. Azure Kubernetes Upgrade cluster
+  - 99. Azure Kubernetes Persistent Storage - Application Setup
+  - 100. Azure Kubernetes Persistent Storage - Application Setup - Resources
+  - 101. Azure Kubernetes Persistent Storage - Build Image
+  - 102. Azure Kubernetes Persistent Storage - Build Image - Resources
+  - 103. Azure Kubernetes Persistent Storage - Using Disks
+  - 104. Azure Kubernetes Persistent Storage - Using Disks - Resources
+  - 105. Azure Kubernetes Persistent Storage - File shares
+  - 106. Azure Kubernetes Persistent Storage - File shares - Resources
 ***
-#### 1a. Xây dựng và Kết Nối đến Máy Ảo
-
-**Xây dựng Máy Ảo**:
-- **Tạo Máy Ảo Windows và Linux**: Trong Azure, việc tạo máy ảo (VM) Windows hoặc Linux là một quá trình đơn giản thông qua Azure Portal hoặc Azure CLI.
-- **Chọn Kích Thước và Hình Ảnh**: Cần lựa chọn kích thước VM phù hợp với yêu cầu hiệu suất và ngân sách. Hình ảnh OS cũng cần được xác định.
-
-**Kết Nối đến Máy Ảo**:
-- **RDP cho Windows**: Remote Desktop Protocol (RDP) được sử dụng để kết nối đến VM Windows. Cần mở cổng 3389 trong NSG.
-- **SSH cho Linux**: Secure Shell (SSH) là phương pháp kết nối đến VM Linux. Cần mở cổng 22.
-
-**Ứng Dụng Thực Tế**:
-- Xây dựng môi trường phát triển hoặc kiểm thử nhanh chóng.
-- Triển khai ứng dụng trên môi trường ảo hóa.
-- Quản lý và điều chỉnh tài nguyên dễ dàng theo yêu cầu.
-
-**Điểm Cần Lưu Ý**:
-- An ninh: Cần thiết lập NSG và bảo mật cổng kết nối một cách hợp lý.
-- Chi phí: Lựa chọn kích thước VM đúng cách để kiểm soát chi phí.
-- Backup và Khôi Phục: Cần cân nhắc giải pháp sao lưu và khôi phục dữ liệu.
 ***
-#### 1b. Vấn đề Kết Nối và Gỡ Lỗi
-
-**Vấn đề Kết Nối**:
-- **Xác Định Vấn đề**: Cần phát hiện nhanh chóng liệu vấn đề kết nối đến VM có do bảo mật, cấu hình mạng, hay dịch vụ OS.
-- **Sử dụng Network Watcher**: Azure Network Watcher giúp theo dõi, gỡ lỗi, và điagnostic vấn đề mạng.
-
-**Gỡ Lỗi và Cài Đặt Dịch Vụ**:
-- **Cài đặt Internet Information Services (IIS)**: Trong môi trường Windows, IIS là dịch vụ web server phổ biến, cần biết cách cài đặt và cấu hình.
-- **Gỡ Lỗi Ứng Dụng và Hệ Thống**: Sử dụng công cụ như Azure Monitor và Log Analytics để gỡ lỗi ứng dụng và hệ thống.
-
-**Ứng Dụng Thực Tế**:
-- Đảm bảo tính sẵn sàng và hiệu suất của ứng dụng và dịch vụ.
-- Tìm hiểu và giải quyết nhanh chóng các vấn đề kết nối và lỗi hệ thống.
-
-**Điểm Cần Lưu Ý**:
-- **Bảo Mật**: Đảm bảo rằng mọi cấu hình mạng và bảo mật đều đúng để tránh rủi ro.
-- **Hiệu Suất**: Gỡ lỗi hiệu suất có thể đòi hỏi hiểu biết sâu về OS và ứng dụng.
-- **Tài Liệu**: Lưu trữ tài liệu về cấu hình và các biện pháp gỡ lỗi để giúp trong tương lai.
 ***
-#### 1c. Chi Phí và Loại Máy Ảo
+# Introduction to Azure Virtual Machine (Giới Thiệu về Dịch Vụ Máy Ảo Azure)
 
-**Chi Phí Liên Quan đến Máy Ảo**:
-- **Hiểu về Chi Phí**: Việc tạo và duy trì máy ảo trên Azure sẽ đòi hỏi chi phí. Các yếu tố bao gồm kích thước VM, thời gian hoạt động, và lưu trữ.
-- **Azure Cost Management**: Công cụ này giúp theo dõi chi phí và hiểu rõ hơn về cách phân bổ ngân sách.
+## Definition
+Azure Virtual Machine (VM) is a service that provides on-demand and scalable computing resources. Essentially, it is a virtualized server that hosts an operating system and can run applications just like a physical machine.
 
-**Loại Máy Ảo**:
-- **Các Loại VM**: Azure cung cấp nhiều loại VM, từ loại tối ưu CPU, RAM, đến loại có hiệu suất đồ họa cao.
-- **Lựa Chọn Phù Hợp**: Việc lựa chọn loại VM phù hợp sẽ ảnh hưởng đến hiệu suất và chi phí.
+## Available Settings and Functions
+Azure VMs offer various types of configurations and sizes to fit different needs, such as:
 
-**Ứng Dụng Thực Tế**:
-- **Phù Hợp Cho Nhu Cầu Kinh Doanh**: Lựa chọn loại VM phù hợp giúp đảm bảo hiệu suất và tính khả dụng trong khi kiểm soát chi phí.
-- **Dự Toán và Theo Dõi Chi Phí**: Quản lý chi phí VM là một phần quan trọng của việc quản lý dịch vụ đám mây.
+### Compute Optimized VMs
+- Suitable for CPU-intensive tasks.
+- Example: F-series VMs.
 
-**Điểm Cần Lưu Ý**:
-- **Tối Ưu Hóa Chi Phí**: Để tối ưu hóa chi phí, cần hiểu rõ về cấu trúc giá của Azure VM và lựa chọn đúng loại VM.
-- **Hiệu Suất và Độ Tin Cậy**: Cần cân nhắc giữa chi phí và yêu cầu hiệu suất, đồng thời xác định các yếu tố khác như độ tin cậy và tính linh hoạt.
-- **Quản Lý Chi Phí**: Sử dụng các công cụ như Azure Cost Management để theo dõi và quản lý chi phí liên quan đến VM.
-***
-#### 1d. Quản Lý Đĩa và Mã Hóa
+### Memory Optimized VMs
+- Designed for applications requiring a large amount of memory.
+- Example: M-series VMs.
 
-**Quản Lý Đĩa**:
-- **Thêm Đĩa Dữ Liệu**: Có thể thêm các đĩa dữ liệu vào VM để mở rộng lưu trữ.
-- **Dừng Máy**: Hiểu về hành vi của VM khi dừng, như chi phí và tình trạng đĩa.
+### Storage Optimized VMs
+- Suitable for large-scale storage and data handling.
+- Example: L-series VMs.
 
-**Mã Hóa Đĩa**:
-- **Server-Side Encryption**: Sử dụng Azure Disk Encryption để mã hóa đĩa.
-- **Azure Key Vault**: Sử dụng để quản lý khóa mã hóa.
+### GPU Optimized VMs
+- Suitable for tasks requiring graphical processing power.
+- Example: N-series VMs.
 
-**Ứng Dụng Thực Tế**:
-- **Bảo Mật Dữ Liệu**: Mã hóa đĩa giúp bảo vệ dữ liệu.
-- **Quản Lý Lưu Trữ**: Thêm đĩa dữ liệu cho phép quản lý lưu trữ linh hoạt.
+## Expert Analysis on Purpose
+Azure VMs cater to multiple purposes:
+- Hosting web servers.
+- Running big data applications.
+- Simulation and testing.
+- Creating development environments.
 
-**Điểm Cần Lưu Ý**:
-- **Quản Lý Khóa**: Quản lý khóa mã hóa là một yếu tố quan trọng trong bảo mật.
-- **Hiệu Suất**: Cân nhắc giữa hiệu suất và bảo mật khi mã hóa đĩa.
-***
-#### 1e. Tùy Chọn Mã Hóa và Xem Xét Nhanh
+## Real-World Application in Enterprise Scale
+Azure VMs can be used for:
+- Deploying large-scale web applications.
+- Managing and processing big data in real-time.
+- Creating disaster recovery solutions.
 
-**Tùy Chọn Mã Hóa**:
-- **Mã Hóa Tập Dữ Liệu, Ảnh Chụp**: Sử dụng mã hóa để bảo vệ tập dữ liệu và ảnh chụp.
-- **Azure Disk Encryption và Tùy Chọn Khác**: Hiểu về các tùy chọn mã hóa khác nhau.
+## Comparable AWS Service
+In AWS, the service comparable to Azure Virtual Machines is Amazon Elastic Compute Cloud (EC2). Both provide resizable computing capacity in the cloud, but differences might include pricing model, available instance types, and integration with other cloud services specific to each platform.
 
-**Xem Xét Nhanh về Tùy Chọn Mã Hóa**:
-- **Tổng Quan Các Tùy Chọn**: Hiểu rõ các tùy chọn và lựa chọn tốt nhất cho nhu cầu cụ thể.
-
-**Ứng Dụng Thực Tế**:
-- **Bảo Mật**: Sử dụng mã hóa để bảo vệ dữ liệu quan trọng.
-- **Tuân Thủ**: Đảm bảo tuân thủ các tiêu chuẩn bảo mật và quy định.
-
-**Điểm Cần Lưu Ý**:
-- **Lựa Chọn Đúng Tùy Chọn Mã Hóa**: Tùy chọn mã hóa phù hợp sẽ phụ thuộc vào yêu cầu bảo mật và tuân thủ.
-***
-#### 1g. Tính Sẵn Có và Quy Mô
-
-**Tính Sẵn Có**:
-- **Availability Sets**: Sử dụng để cải thiện tính sẵn còn và độ tin cậy.
-- **Availability Zones**: Cung cấp tính sẵn còn ở cấp độ khu vực.
-
-**Quy Mô Máy Ảo**:
-- **Virtual Machine Scale Sets**: Quy mô máy ảo theo nhu cầu.
-- **Điều Kiện Quy Mô**: Thiết lập điều kiện để tự động quy mô.
-
-**Ứng Dụng Thực Tế**:
-- **Độ Tin Cậy**: Cải thiện tính sẵn còn và khả năng phục hồi sau lỗi.
-- **Linh Hoạt**: Quy mô theo nhu cầu, giúp quản lý hiệu quả nguồn lực.
-
-**Điểm Cần Lưu Ý**:
-- **Cân Nhắc Chi Phí**: Tính sẵn còn cao có thể tăng chi phí.
-- **Cấu Hình Đúng Cách**: Cần cấu hình đúng để đảm bảo tính sẵn còn và quy mô hiệu quả.
-***
+## Tên Chức Năng/Dịch Vụ Tương Đồng ở AWS Cloud
+- **Amazon EC2 (Elastic Compute Cloud)**: Dịch vụ tương đồng với Azure Virtual Machine.
+  - **Chuyên Môn Ngắn Gọn**: EC2 cũng cung cấp máy ảo, nhưng có sự khác biệt về chi phí, cấu hình và dịch vụ hỗ trợ kèm theo.
 
