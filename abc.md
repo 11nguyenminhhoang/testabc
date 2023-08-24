@@ -343,6 +343,64 @@ AWS also offers a Free Tier with similar restrictions on available instance type
 ***
 ***
 ***
+### 5. Customization and Extensions (Tùy chỉnh và Phần Mở rộng)
+
+#### 31. Custom Script Extensions
+- **Definition:** Custom Script Extensions allow automation of configuration tasks on Azure Virtual Machines (VMs). They can be used to download and execute scripts from Azure Storage or GitHub.
+- **Available Settings and Functions:** Enables the execution of scripts in various languages, file copying, and configuration management.
+- **Expert Analysis:** Commonly used for VM configuration, setup, and maintenance.
+- **Real-world Application:** Can be used to automate software installation, security updates, and environmental configuration in enterprise-scale deployments.
+- **AWS Cloud Comparison:** Similar to AWS EC2 user data.
+
+#### 32. Lab - Custom Script Extensions
+- **Definition:** A practical lab for working with and understanding Custom Script Extensions.
+- **Expert Analysis:** Hands-on practice to apply and validate the knowledge on Custom Script Extensions.
+- **AWS Cloud Comparison:** AWS also offers hands-on labs for similar purposes with EC2 instances.
+
+#### 33. Lab - Custom Script Extensions for Linux Virtual Machines
+- **Definition:** Lab specifically designed for working with Custom Script Extensions on Linux-based Azure VMs.
+- **Available Settings and Functions:** Focus on Linux systems and their specific configurations.
+- **Expert Analysis:** Excellent for gaining real-world experience in managing Linux VMs through custom scripts.
+- **AWS Cloud Comparison:** Similar to working with Linux instances in AWS using EC2.
+
+#### 34. Lab - Linux Virtual Machines - Cloud init
+- **Definition:** This lab deals with cloud-init functionality for Linux Virtual Machines in Azure.
+- **Available Settings and Functions:** Cloud-init allows the customization of VM instances at boot time.
+- **Expert Analysis:** Essential for understanding VM initialization processes and automated configuration.
+- **Real-world Application:** Typically utilized for bootstrapping applications, setting up users, and applying patches in an enterprise context.
+- **AWS Cloud Comparison:** AWS also supports cloud-init with its EC2 instances.
+
+#### 35. Virtual Machine - Boot Diagnostics
+- **Definition:** Boot Diagnostics in Azure allows administrators to view the VM boot logs and console output, assisting in troubleshooting.
+- **Available Settings and Functions:** Captures serial log, screen capture, and supports custom storage accounts.
+- **Expert Analysis:** Key for diagnosing boot-related issues and VM status analysis.
+- **Real-world Application:** Widely used for system recovery, audit, and compliance in large-scale businesses.
+- **AWS Cloud Comparison:** Similar functionality can be found in AWS EC2 with Instance Console Output.
+
+#### 36. Lab - Virtual Machine - Run command
+- **Definition:** A lab that provides hands-on experience running commands on a VM directly from Azure.
+- **Expert Analysis:** Useful for understanding remote management of VMs.
+- **AWS Cloud Comparison:** AWS Systems Manager Run Command offers similar functionality.
+
+#### 37. Lab - Virtual Machine - Run command - Resources
+- **Definition:** Resources related to the above lab.
+- **Expert Analysis:** Additional information and tools for a comprehensive learning experience.
+- **AWS Cloud Comparison:** Comparable to AWS lab resources.
+
+#### 39. Note - Redeploying a virtual machine
+- **Definition:** Instructions or notes on how to redeploy a virtual machine in Azure.
+- **Expert Analysis:** Essential for understanding how to move VMs between hosts and fix underlying issues.
+- **Real-world Application:** Used in scenarios of hardware failure, updates, or to balance workloads across the enterprise.
+- **AWS Cloud Comparison:** Similar to AWS EC2 instance redeployment options.
+
+#### 40. Availability Sets
+- **Definition:** Availability Sets in Azure ensure that VM resources are distributed across multiple isolated hardware nodes in a cluster.
+- **Available Settings and Functions:** Provide high availability and fault tolerance.
+- **Expert Analysis:** Fundamental for achieving high availability in mission-critical applications.
+- **Real-world Application:** Used in industries like finance, healthcare, and e-commerce where downtime is not acceptable.
+- **AWS Cloud Comparison:** Similar to AWS EC2 Availability Zones.
+
+
 ***
 ***
 ***
