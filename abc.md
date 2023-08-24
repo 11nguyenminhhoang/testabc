@@ -400,10 +400,39 @@ AWS also offers a Free Tier with similar restrictions on available instance type
 - **Real-world Application:** Used in industries like finance, healthcare, and e-commerce where downtime is not acceptable.
 - **AWS Cloud Comparison:** Similar to AWS EC2 Availability Zones.
 
+***
+***
+***
+#### 6. Diagnostics and Management Tools
 
-***
-***
-***
+##### 35. Virtual Machine - Boot Diagnostics
+- **Definition**: Boot Diagnostics allows you to view the boot output of a Virtual Machine (VM) in Azure, enabling the diagnosis of VM boot failures.
+- **Overview**: Provides insights into boot errors and allows you to take snapshots of the boot screen.
+- **Usage Purpose**: Vital for troubleshooting VM start-up issues in a cloud environment.
+- **Real-world Application**: In enterprise-level deployments, ensures the seamless booting of critical VMs.
+- **Similarity to AWS**: AWS offers EC2 Instance Connect for similar boot diagnostics.
+
+##### 36. Lab - Virtual Machine - Run command
+- **Definition**: The 'Run command' feature in Azure VMs allows executing scripts or commands directly on the VM.
+- **Overview**: Enables administrators to manage, troubleshoot, or automate tasks within VMs.
+- **Usage Purpose**: Useful for on-the-fly diagnostics and running maintenance tasks.
+- **Real-world Application**: System administrators use it for batch processing or application management.
+- **Similarity to AWS**: AWS Systems Manager Run Command performs a similar function.
+
+##### 37. Lab - Virtual Machine - Run command - Resources
+- **Definition**: Resources for practicing and implementing the 'Run command' feature on VMs.
+- **Overview**: It may include guides, scripts, and tools for hands-on practice.
+- **Usage Purpose**: To aid learning and real-world implementation.
+- **Real-world Application**: Often used in educational and training environments.
+- **Similarity to AWS**: AWS offers labs and tutorials for Systems Manager capabilities.
+
+##### 39. Note - Redeploying a virtual machine
+- **Definition**: Redeployment involves moving a VM to a different host within Azure to solve underlying issues.
+- **Overview**: Helps to address problems that might be tied to the host system.
+- **Usage Purpose**: Useful for resolving host-level errors without altering the VM itself.
+- **Real-world Application**: It's commonly applied to move VMs away from failing or degraded hosts.
+- **Similarity to AWS**: AWS provides VM migration options within its EC2 service for similar redeployment.
+
 ***
 ***
 ***
