@@ -267,6 +267,79 @@ AWS also offers a Free Tier with similar restrictions on available instance type
 ***
 ***
 ***
+
+### 4. Disk Management and Encryption (Quản Lý Đĩa và Mã Hóa)
+
+#### 21. Azure Virtual Machine - Disks
+- **Definition**: Disks in Azure Virtual Machines are the storage units attached to the VM. They can be either OS disks or data disks and can be managed or unmanaged.
+- **Configuration and Functions**: Managed disks are abstracted from the underlying storage account and provide reliability. Unmanaged disks require manual setup.
+- **Professional Analysis**: Ideal for persisting data, scalable based on needs.
+- **Real-world Enterprise Application**: Used in hosting databases, application files.
+- **AWS Equivalent**: Amazon Elastic Block Store (EBS).
+
+#### 22. Lab - Adding data disks
+- **Definition**: The practical implementation of adding additional data disks to an Azure Virtual Machine.
+- **Configuration and Functions**: Provides additional storage, can be attached or detached as needed.
+- **Professional Analysis**: Enhances storage capabilities; essential for data-intensive applications.
+- **Real-world Enterprise Application**: Upgrading storage in applications like data warehouses.
+- **AWS Equivalent**: Adding EBS volumes.
+
+#### 23. What happens when we stop the machine
+- **Definition**: Details the state and condition of disks when a VM is stopped.
+- **Configuration and Functions**: Data remains intact; billing may vary.
+- **Professional Analysis**: Understanding the state is crucial for cost management.
+- **Real-world Enterprise Application**: Managing cost in non-continuous operations.
+- **AWS Equivalent**: Stopping an Amazon EC2 instance.
+
+#### 24. Azure Disks - Server Side Encryption
+- **Definition**: Encryption of data within Azure storage.
+- **Configuration and Functions**: Provides security by encrypting data at rest. Can be with Azure-managed keys or customer-managed keys.
+- **Professional Analysis**: Essential for compliance and protecting sensitive data.
+- **Real-world Enterprise Application**: Used to secure customer and financial data.
+- **AWS Equivalent**: Amazon EBS encryption.
+
+#### 25. Lab - Azure Key Vault Service
+- **Definition**: A lab involving the use of Azure Key Vault for managing cryptographic keys and secrets.
+- **Configuration and Functions**: Secures application secrets, cryptographic keys, and certificates.
+- **Professional Analysis**: A fundamental component for secure operations.
+- **Real-world Enterprise Application**: Managing credentials in enterprise applications.
+- **AWS Equivalent**: AWS Key Management Service (KMS).
+
+#### 26. Lab - Disk Encrytion Sets
+- **Definition**: A lab focusing on Azure Disk Encryption Sets, a package of encryption settings.
+- **Configuration and Functions**: Allows multiple disks to use the same encryption settings.
+- **Professional Analysis**: Simplifies the management of disk encryption.
+- **Real-world Enterprise Application**: Enforcing consistent encryption across multiple VMs.
+- **AWS Equivalent**: AWS KMS combined with EBS encryption.
+
+#### 27. Lab - Azure Disk Encryption
+- **Definition**: Hands-on implementation of disk encryption in Azure.
+- **Configuration and Functions**: Utilizes BitLocker (Windows) or DM-Crypt (Linux) for full disk encryption.
+- **Professional Analysis**: Provides an additional layer of security.
+- **Real-world Enterprise Application**: Securing data in regulated industries like healthcare.
+- **AWS Equivalent**: Amazon EC2 instance encryption with KMS.
+
+#### 28. Quick review on the encryption options
+- **Definition**: A summary of the different encryption options within Azure Disks.
+- **Configuration and Functions**: Includes server-side encryption, client-side encryption, Azure Disk Encryption, etc.
+- **Professional Analysis**: Options cater to varying compliance and security needs.
+- **Real-world Enterprise Application**: Selecting the right encryption for specific industry needs.
+- **AWS Equivalent**: Various encryption options in EBS and EC2.
+
+#### 29. Lab - Data Disks Snapshot
+- **Definition**: A practical exercise in taking snapshots of Azure data disks.
+- **Configuration and Functions**: Snapshots provide point-in-time backups.
+- **Professional Analysis**: Important for disaster recovery and data retention.
+- **Real-world Enterprise Application**: Regular backups in critical data applications.
+- **AWS Equivalent**: Amazon EBS snapshots.
+
+#### 30. Azure Shared Disks
+- **Definition**: Disks in Azure that can be accessed by multiple VMs simultaneously.
+- **Configuration and Functions**: Suitable for clustered applications and databases.
+- **Professional Analysis**: Facilitates high availability and collaboration between VMs.
+- **Real-world Enterprise Application**: Used in scenarios where shared access is needed, such as a clustered database.
+- **AWS Equivalent**: Amazon EBS Multi-Attach.
+
 ***
 ***
 ***
