@@ -180,8 +180,7 @@ Azure VMs can be used for:
 
 ## Comparable AWS Service
 In AWS, the service comparable to Azure Virtual Machines is Amazon Elastic Compute Cloud (EC2). Both provide resizable computing capacity in the cloud, but differences might include pricing model, available instance types, and integration with other cloud services specific to each platform.
-
-## Tên Chức Năng/Dịch Vụ Tương Đồng ở AWS Cloud
-- **Amazon EC2 (Elastic Compute Cloud)**: Dịch vụ tương đồng với Azure Virtual Machine.
-  - **Chuyên Môn Ngắn Gọn**: EC2 cũng cung cấp máy ảo, nhưng có sự khác biệt về chi phí, cấu hình và dịch vụ hỗ trợ kèm theo.
+***
+***
+***
 
