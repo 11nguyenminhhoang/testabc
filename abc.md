@@ -1,4 +1,4 @@
-<hr style="border: 1px solid #f007;">
+<hr style="border: 10px solid #00f0f0;">
 
 # Truy Vấn SQL: Một Công Cụ Mạnh Mẽ Trong Xử Lý Dữ Liệu
 
