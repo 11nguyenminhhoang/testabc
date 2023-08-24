@@ -227,6 +227,43 @@ The AWS counterpart for building and connecting to VMs is also Amazon Elastic Co
 ***
 ***
 ***
+# Additional Services and Cost Considerations (Dịch Vụ Bổ Sung và Xem xét Chi phí)
+
+## 13. Lab - Installing Internet Information Services
+Installing Internet Information Services (IIS) on a Windows virtual machine within Azure.
+
+### Definition
+- **Internet Information Services (IIS)**: A web server software created by Microsoft for hosting anything on the web.
+
+### Process
+1. Select the Windows VM.
+2. Install IIS via Windows Features.
+3. Configure IIS based on needs.
+
+## 14. Costs Associated with the Virtual Machine
+Understanding the cost factors including compute resources, storage, networking, etc.
+
+### Definition
+- **Compute Costs**: Costs related to the processing power used.
+- **Storage Costs**: Costs related to the amount of data stored.
+- **Networking Costs**: Costs associated with data transfer.
+
+## 15. Virtual Machine Types
+Different VM sizes/types are available based on needs, including General Purpose, Compute Optimized, Memory Optimized, etc.
+
+### Definition
+- **General Purpose VMs**: Balanced CPU-to-memory ratio.
+- **Compute Optimized VMs**: High CPU-to-memory ratio, suitable for compute-intensive applications.
+- **Memory Optimized VMs**: High memory-to-CPU ratio, suitable for databases.
+
+## 20. Note on Restrictions for the Azure Free Account
+Azure Free Account offers limited access to resources, and certain VM types and sizes might not be available.
+
+### Comparable AWS Service
+AWS also offers a Free Tier with similar restrictions on available instance types and other resources.
+
+
+
 ***
 ***
 ***
