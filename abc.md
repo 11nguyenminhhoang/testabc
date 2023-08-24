@@ -182,4 +182,78 @@ In AWS, the service comparable to Azure Virtual Machines is Amazon Elastic Compu
 ***
 ***
 ***
+# Building and Connecting to Virtual Machines (Xây dựng và Kết nối đến Máy Ảo)
 
+## Lab - Building a Windows Virtual Machine
+Creating a Windows virtual machine (VM) in Azure involves the selection of an appropriate image, VM size, network settings, storage, and configuring other essential parameters.
+
+### Definition
+- **Virtual Machine**: A software emulation of a computer system.
+- **Image**: A template that contains the operating system and sometimes additional applications.
+- **VM Size**: Determines the amount of CPU, RAM, and other resources allocated.
+
+### Process
+1. Select a Windows image.
+2. Choose the VM size.
+3. Configure network settings.
+4. Allocate storage.
+5. Launch the VM.
+
+## Connecting to the Virtual Machine
+You can connect to an Azure VM using Remote Desktop Protocol (RDP) for Windows or SSH for Linux.
+
+### Issues Connecting to the Machine
+Common issues may include:
+- Network configuration problems.
+- Firewall restrictions.
+- Incorrect authentication credentials.
+
+## Lab - Building a Linux Virtual Machine
+Similar to Windows, but uses a Linux image.
+
+## Lab - Deploying a Web Server on the Linux Virtual Machine
+You can deploy a web server like Apache or Nginx on a Linux VM.
+
+### Resources
+Resources required may include certain VM size, network configurations, and necessary software installations.
+
+## Lab - Deploying a Linux Machine - SSH Keys
+SSH keys provide secure access to Linux VMs. They can be generated and configured during the VM creation process.
+
+## Comparable AWS Service
+The AWS counterpart for building and connecting to VMs is also Amazon Elastic Compute Cloud (EC2). It offers similar capabilities for creating Windows and Linux VMs, connecting via RDP or SSH, and deploying various applications. However, AWS might have different images, instance types, or network configuration options.
+
+
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
+***
