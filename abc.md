@@ -11,8 +11,7 @@ tốt lắm, bây giờ đi làm chi tiết chuyên môn, hãy làm rõ từng p
 We are going to start with the Azure virtual machine service
 The Virtual Machine Service
 
-Bây giờ bắt đầu cho phần 1 của bạn đi.
-Lưu ý : Vẫn dịch sang tiếng việt tuy nhiên giữ lại những cụm từ và thuật ngữ và tiêu đề ENGLISH quan trọng (dịch tiếng việt bên cạnh). HÃY TRẢ LỜI dưới dạng CODE MARKDOWN (.md)
+Bây giờ bắt đầu cho phần trên. Lưu ý : trả lời bằng ENGLISH quan trọng (chỉ cần dịch tiêu đề). HÃY TRẢ LỜI dưới dạng CODE MARKDOWN (.md)
 
 
 ### Azure Virtual Machine Service
