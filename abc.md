@@ -52,3 +52,25 @@ Kỳ thi AZ-104 tập trung vào việc đánh giá kỹ năng và kiến thức
 ## **Kết Luận**
 
 Kỳ thi AZ-104 cung cấp một cái nhìn toàn diện về việc quản lý máy ảo và dịch vụ container trên Azure. Các chủ đề bao gồm cả việc xây dựng và quản lý máy ảo, cài đặt và cấu hình dịch vụ web và container, và các khía cạnh liên quan khác. Việc vượt qua kỳ thi này sẽ chứng minh kỹ năng và hiểu biết về các công nghệ và dịch vụ Azure quan trọng này.
+
+***
+#### 1a. Xây dựng và Kết Nối đến Máy Ảo
+
+**Xây dựng Máy Ảo**:
+- **Tạo Máy Ảo Windows và Linux**: Trong Azure, việc tạo máy ảo (VM) Windows hoặc Linux là một quá trình đơn giản thông qua Azure Portal hoặc Azure CLI.
+- **Chọn Kích Thước và Hình Ảnh**: Cần lựa chọn kích thước VM phù hợp với yêu cầu hiệu suất và ngân sách. Hình ảnh OS cũng cần được xác định.
+
+**Kết Nối đến Máy Ảo**:
+- **RDP cho Windows**: Remote Desktop Protocol (RDP) được sử dụng để kết nối đến VM Windows. Cần mở cổng 3389 trong NSG.
+- **SSH cho Linux**: Secure Shell (SSH) là phương pháp kết nối đến VM Linux. Cần mở cổng 22.
+
+**Ứng Dụng Thực Tế**:
+- Xây dựng môi trường phát triển hoặc kiểm thử nhanh chóng.
+- Triển khai ứng dụng trên môi trường ảo hóa.
+- Quản lý và điều chỉnh tài nguyên dễ dàng theo yêu cầu.
+
+**Điểm Cần Lưu Ý**:
+- An ninh: Cần thiết lập NSG và bảo mật cổng kết nối một cách hợp lý.
+- Chi phí: Lựa chọn kích thước VM đúng cách để kiểm soát chi phí.
+- Backup và Khôi Phục: Cần cân nhắc giải pháp sao lưu và khôi phục dữ liệu.
+
