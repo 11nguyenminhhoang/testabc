@@ -1,4 +1,5 @@
-<hr style="border: 1px solid #f00;">
+<hr style="border: 1px solid #f007;">
+
 # Truy Vấn SQL: Một Công Cụ Mạnh Mẽ Trong Xử Lý Dữ Liệu
 
 Trong thế giới dữ liệu ngày nay, việc biết cách truy vấn dữ liệu là một kỹ năng không thể thiếu. **SQL** (Structured Query Language) là một trong những ngôn ngữ truy vấn dữ liệu phổ biến nhất và được sử dụng rộng rãi.
